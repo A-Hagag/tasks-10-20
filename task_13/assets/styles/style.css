@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.real-estate-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.content-container {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.experience-box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e63946;
+}
+
+.experience-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.text-container {
+    padding: 40px;
+    max-width: 500px;
+}
+
+.story-title {
+    font-size: 14px;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.main-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.features {
+    margin-bottom: 30px;
+}
+
+.feature-item {
+    margin-bottom: 20px;
+}
+
+.feature-number {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e63946;
+}
+
+.feature-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.feature-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.read-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.read-more-button:hover {
+    background-color: #d62828;
+}
